@@ -1,0 +1,161 @@
+{
+  "terminal.integrated.fontSize": 14,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 26,
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.formatOnSave": true,
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "editor.colorDecorators": false,
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "editor.rulers": [80, 120],
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+    // "**/node_modules": true
+  },
+
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact",
+    "*.css": "css"
+  },
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+
+  "git.enableSmartCommit": true,
+  "liveshare.featureSet": "insiders",
+
+  "typescript.tsserver.log": "off",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "screencastMode.onlyKeyboardShortcuts": true,
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "auto",
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+
+  "window.menuBarVisibility": "toggle",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  // "tabnine.experimentalAutoImports": true,
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.language": "en,pt",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // "liveServer.settings.donotVerifyTags": true,
+  "cSpell.userWords": ["rocketseat"],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave'": "afterDelay",
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.fontFamily": "Fira Code",
+  "workbench.editor.untitled.hint": "hidden",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "tabnine.experimentalAutoImports": true,
+  "color-highlight.markerType": "dot-before",
+  "bracketPairColorizer.depreciation-notice": false,
+  "files.autoSave": "afterDelay",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Min Dark"
+}
